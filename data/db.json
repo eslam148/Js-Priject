@@ -1,0 +1,63 @@
+{
+    "location": {
+      "city": "San Francisco",
+      "region": "CA",
+      "country": "United States",
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "current": {
+      "temperature": 15,
+      "humidity": 82,
+      "pressure": 1013,
+      "wind_speed": 5.4,
+      "wind_direction": "NW",
+      "condition": {
+        "text": "Partly Cloudy",
+        "icon": "https://example.com/icons/partly_cloudy.png",
+        "code": 1003
+      },
+      "feels_like": 13
+    },
+    "forecast": [
+      {
+        "date": "2024-12-12",
+        "high": 18,
+        "low": 12,
+        "condition": {
+          "text": "Sunny",
+          "icon": "https://example.com/icons/sunny.png",
+          "code": 1000
+        }
+      },
+      {
+        "date": "2024-12-13",
+        "high": 17,
+        "low": 11,
+        "condition": {
+          "text": "Cloudy",
+          "icon": "https://example.com/icons/cloudy.png",
+          "code": 1006
+        }
+      },
+      {
+        "date": "2024-12-14",
+        "high": 16,
+        "low": 10,
+        "condition": {
+          "text": "Rain",
+          "icon": "https://example.com/icons/rain.png",
+          "code": 1183
+        }
+      }
+    ],
+    "alerts": [
+      {
+        "title": "High Wind Warning",
+        "description": "Strong winds are expected in the area from 10 AM to 8 PM.",
+        "start": "2024-12-12T10:00:00-08:00",
+        "end": "2024-12-12T20:00:00-08:00"
+      }
+    ]
+  }
+  
