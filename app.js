@@ -2,6 +2,7 @@ import { routes } from "./router.js";
 
 const app = document.getElementById("app");
 let currentStylesheet = null;
+let currentScript = null;
 
 async function loadComponent(filePath) {
     try {
@@ -24,9 +25,18 @@ function loadStylesheet(cssPath) {
     currentStylesheet = link;
 }
 
+function loadScript(scriptPath) {
+    if (currentScript) {
+        currentScript.remove();
+    }
+    const script = document.createElement("script");
+    script.remove()
+    script.src = scriptPath;
+    document.head.appendChild(script);
+    currentScript = script;
+}
 async function handleRoute() {
-    console.log(window.location)
-    const hash = window.location.hash.substring(1) || "home";
+     const hash = window.location.hash.substring(1) || "home";
     const route = routes[hash];
 
     if (route) {
@@ -35,6 +45,9 @@ async function handleRoute() {
 
         if (route.css) {
             loadStylesheet(route.css);
+        }
+         if (route.script) {
+            loadScript(route.script);
         }
     }
 }
