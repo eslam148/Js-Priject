@@ -1,0 +1,78 @@
+.footer {
+    width: 100%;
+    background-color: #051922;
+    height: 30vh;
+    padding: 150px 0;
+    display: flex;
+    color: #fff;
+}
+ 
+.footer-header {
+     font-size: 24px;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 20px;
+    color: #fff;
+}
+.col-4 p{
+    opacity: 0.7;
+}
+.footer-Links-item{
+    opacity: 0.7;
+}
+.footer-header::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 10%;
+    height: 2px;
+    background-color: #F28123;
+}
+
+.footer-Links {
+    list-style: none;
+    padding: 5px;
+}
+
+.footer-Links li {
+    display: flex;
+    gap: 9px;
+    align-items: center;
+}
+
+.footer-Links i {
+    color: #F28123;
+}
+.Send-Email {
+    display: flex;
+    gap: 2%;
+}
+.Send-Email input{
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    width: 78%;
+    padding: 15px;
+}
+.Send-Email button{
+    width: 20%;
+    padding: 14px 0;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    transition: 0.3s;
+}
+.Send-Email *{
+    background-color: #012738;
+    color: #fff;
+    border: none;
+   
+}
+i{
+    transition: 0.3s;
+
+}
+
+.Send-Email button:hover,.Send-Email button:hover i{
+    background-color: #F28123;
+    color: #051922;
+}
