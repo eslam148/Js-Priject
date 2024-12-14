@@ -59,19 +59,31 @@ window.addEventListener("load", handleRoute);
 async function loadNavbar() {
     const navbarHTML = await loadComponent("Components/navbarComponent/navbar.html");
     document.body.insertAdjacentHTML("afterbegin", navbarHTML);
-    loadStylesheet("Components/navbarComponent/navbar.css")
-    loadScript("Components/navbarComponent/navbar.js")
-    // const navbarCSS = document.createElement("link");
-    // navbarCSS.rel = "stylesheet";
-    // navbarCSS.href = "Components/navbarComponent/navbar.css";
-    // document.head.appendChild(navbarCSS);
+    // loadStylesheet("Components/navbarComponent/navbar.css")
+    // loadScript("Components/navbarComponent/navbar.js")
+    const navbarCSS = document.createElement("link");
+    navbarCSS.rel = "stylesheet";
+    navbarCSS.href = "Components/navbarComponent/navbar.css";
+    document.head.appendChild(navbarCSS);
+
+    const script = document.createElement("script");
+    script.src = "Components/navbarComponent/navbar.js";
+    scriptcontetn.append(script);
+     
 }
 async function loadFooter() {
     const footerHTML = await loadComponent("Components/footerComponent/footer.html");
     app.insertAdjacentHTML("afterend", footerHTML);
     const footerCSS = document.createElement("link");
-    loadStylesheet("Components/footerComponent/footer.css")
-    loadScript("Components/footerComponent/footer.js")
+    // loadStylesheet("Components/footerComponent/footer.css")
+    // loadScript("Components/footerComponent/footer.js")
+    footerCSS.rel = "stylesheet";
+    footerCSS.href = "Components/footerComponent/footer.css";
+    document.head.appendChild(footerCSS);
+
+    const script = document.createElement("script");
+    script.src = "Components/footerComponent/footer.js";
+    scriptcontetn.append(script);
     
 }
 window.addEventListener("load", loadNavbar);
