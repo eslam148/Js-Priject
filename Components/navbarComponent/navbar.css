@@ -24,9 +24,11 @@ nav  {
   top: 0;
   left: 0;
   width: 100%;
-
   /* ;
   left: 1rem; */
+}
+.dark_nav{
+  background-color: rgba(0, 0, 0, 0.774);
 }
 nav ul {
   display: flex;

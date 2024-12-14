@@ -1,4 +1,6 @@
 import { routes } from "./router.js";
+//david work
+import { navscroll } from "./Components/navbarComponent/navbar.js";
 
 const app = document.getElementById("app");
 const scriptcontetn = document.createElement("scriptConetent");
@@ -89,3 +91,8 @@ async function loadFooter() {
 window.addEventListener("load", loadNavbar);
 window.addEventListener("load", loadFooter);
 
+
+//david work
+window.addEventListener("scroll",()=>{
+    navscroll(this);
+})
