@@ -44,6 +44,9 @@
 .footer-Links i {
     color: #F28123;
 }
+.footer-Links li:hover{
+    color: #F28123;
+}
 .Send-Email {
     display: flex;
     gap: 2%;

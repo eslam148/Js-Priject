@@ -1,0 +1,31 @@
+.product-contaner{
+    margin-block: 150px;
+    display: flex;
+    width: 70%;
+    gap: 20px;
+}
+.gallary{
+    display: flex;
+    width: 50%;
+}
+.gallary .gallary-images {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 20%;
+}
+.gallary .gallary-images img{
+    width: 100px;
+    
+}
+.gallary .main-image{
+    width: 75%;
+}
+.gallary .main-image img{
+    width: 100%;
+    height: 80vh;
+}
+
+.product-details{
+    width: 50%;
+}

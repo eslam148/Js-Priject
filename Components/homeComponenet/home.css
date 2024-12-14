@@ -1,5 +1,6 @@
 section{
   height: 100vh;
+  width: 100%;
 }
 .home{
   z-index: -1;
@@ -55,6 +56,7 @@ section{
   background-color: #0a0a0a98;
   border: none;
   color: #f17511;
+  transition: 0.5s;
 }
 .contact_us{
   border: solid 2px #F28123;
@@ -62,4 +64,6 @@ section{
 }
 .contact_us:hover{
   background-color: #F28123;
+  transition: 0.5s;
+
 }

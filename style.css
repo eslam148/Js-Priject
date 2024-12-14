@@ -1,6 +1,9 @@
 #app{
     display: flex;
-    justify-content: center
+    justify-content: center;
+    width: 100%;
+    z-index: 2;
+    position: relative;
 }
 .container{
     margin: auto;
