@@ -38,9 +38,11 @@ nav a {
   margin: 0 25px;
   color: rgb(255, 255, 255);
   text-decoration: none;
+  transition-duration: .65s;
 }
 nav a:hover, i:hover{
   color: #F28123;
+  transition-duration: .65s;
 }
 .active{
   color: #F28123;
