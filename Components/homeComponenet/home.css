@@ -1,8 +1,65 @@
-section {
-    padding: 20px;
-    background-color: #f9f9f9;
-  }
-  h1 {
-    color: #2c3e50;
-  }
-  
+section{
+  height: 100vh;
+}
+.home{
+  z-index: -1;
+  top: 0;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.616),rgba(255, 132, 0, 0.107)),url("../assets/img/hero-bg.jpg");
+  /* Second way for making an image */
+  /* background-image: url("../assets/img/hero-bg.jpg");
+  filter: brightness(.5); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* 
+.home::after{
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.564);
+  width: 100vw;
+  height: 100vh;
+  content: "";
+} */
+.home div{
+  text-align: center;
+}
+.content{
+  color: aliceblue;
+}
+.active_home{
+  color: coral;
+  letter-spacing: 0.5rem;
+}
+.home p{
+  font-size: 4rem;
+  font-weight: 700;
+  color: white;
+  margin: 8px 0 30px;
+}
+.home div button{
+  margin: 10px;
+  padding: 13px;
+  padding-inline: 25px;
+  border-radius: 25px;
+  color: white;
+  font-weight: bolder;
+}
+
+.shop{
+  background-color: #F28123;
+  border: none;
+}
+.shop:hover{
+  background-color: #0a0a0a98;
+  border: none;
+  color: #f17511;
+}
+.contact_us{
+  border: solid 2px #F28123;
+  background: transparent;
+}
+.contact_us:hover{
+  background-color: #F28123;
+}
