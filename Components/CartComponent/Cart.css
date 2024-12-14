@@ -1,0 +1,52 @@
+.cart-containrt{
+  margin-block: 150px;
+  box-sizing: border-box;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: start;
+  width: 83%;
+}
+.table-head{
+    border-bottom: 1px solid #eee;
+}
+.tr-head{
+    background-color: #efefef;
+
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+}
+.cart-table{
+    width: 70%;
+}
+.bill-tabel{
+    width: 30%;
+}
+th{
+    padding: 15px;
+    border-right: 1px solid #efefef;
+    font-weight: 500;
+    text-align: center;
+}
+td{
+    border: 1px solid #efefef;
+    padding: 20px 0;
+    color: #051922;
+}
+
+.count-input{
+    border: 1px solid #ddd;
+    width: 100px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.btn-remove{
+    background-color: transparent;
+}
+.cart-image{
+ width: 50px;
+}
