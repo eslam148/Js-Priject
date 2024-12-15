@@ -1,9 +1,9 @@
 #app{
-    display: flex;
+    /* display: flex;
     justify-content: center;
     width: 100%;
+    position: relative; */
     z-index: 2;
-    position: relative;
 }
 .container{
     margin: auto;
