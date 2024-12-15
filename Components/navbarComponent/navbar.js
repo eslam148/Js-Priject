@@ -1,12 +1,13 @@
 //david work
-let bg_nav = document.querySelector("nav");
 
-console.log(bg_nav);
-export function navscroll(wind){
+   function navscroll(wind){
+var bg_nav = document.getElementById("nav");
+
       if (wind.scrollY > 0) {
-        bg_nav.style.backgroundColor = "rgba(0, 0, 0, 0.774)";
+        bg_nav.style= "background-color: rgba(0, 0, 0, 0.88);hieght:11vh;transition:0.6s;padding-top:5px;";
       } else {
-        bg_nav.style.backgroundColor = "transparent";
+        bg_nav.style = "background-color:transparent;transition:0.6s;";
       }
 }
 
+window.addEventListener("scroll",()=>{navscroll(this)})
