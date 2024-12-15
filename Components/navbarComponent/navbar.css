@@ -10,7 +10,7 @@ body{
   margin: auto;
 }
 nav  {
-  z-index: 3;
+  z-index: 2;
   background: transparent;
   top: 0;
   color: white;
@@ -24,9 +24,9 @@ nav  {
   top: 0;
   left: 0;
   width: 100%;
-
-  /* ;
-  left: 1rem; */
+}
+.dark_nav{
+  background-color: rgba(0, 0, 0, 0.774);
 }
 nav ul {
   display: flex;
@@ -38,9 +38,11 @@ nav a {
   margin: 0 25px;
   color: rgb(255, 255, 255);
   text-decoration: none;
+  transition-duration: .65s;
 }
 nav a:hover, i:hover{
   color: #F28123;
+  transition-duration: .65s;
 }
 .active{
   color: #F28123;

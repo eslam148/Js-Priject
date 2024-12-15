@@ -1,5 +1,6 @@
 import { routes } from "./router.js";
-
+ 
+ 
 const app = document.getElementById("app");
 const scriptcontetn = document.createElement("scriptConetent");
 let currentStylesheet = null;
@@ -66,9 +67,9 @@ async function loadNavbar() {
     navbarCSS.href = "Components/navbarComponent/navbar.css";
     document.head.appendChild(navbarCSS);
 
-    const script = document.createElement("script");
-    script.src = "Components/navbarComponent/navbar.js";
-    scriptcontetn.append(script);
+    // const script = document.createElement("script");
+    // script.src = "Components/navbarComponent/navbar.js";
+    // scriptcontetn.append(script);
      
 }
 async function loadFooter() {
@@ -89,3 +90,8 @@ async function loadFooter() {
 window.addEventListener("load", loadNavbar);
 window.addEventListener("load", loadFooter);
 
+
+//david work
+// window.addEventListener("scroll",()=>{
+//     navscroll(this);
+// })

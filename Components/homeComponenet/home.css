@@ -1,12 +1,16 @@
-section{
-  height: 100vh;
+section {
+  min-height: 50vh;
   width: 100%;
 }
-.home{
+.home {
   z-index: -1;
   top: 0;
-  height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.616),rgba(255, 132, 0, 0.107)),url("../assets/img/hero-bg.jpg");
+  min-height: 100vh;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.801),
+      rgba(255, 132, 0, 0.107)
+    ),
+    url("../assets/img/hero-bg.jpg");
   /* Second way for making an image */
   /* background-image: url("../assets/img/hero-bg.jpg");
   filter: brightness(.5); */
@@ -22,48 +26,146 @@ section{
   width: 100vw;
   height: 100vh;
   content: "";
-} */
-.home div{
+} 
+*/
+.home div {
   text-align: center;
 }
-.content{
+.content {
   color: aliceblue;
 }
-.active_home{
+.active_home {
   color: coral;
   letter-spacing: 0.5rem;
 }
-.home p{
+.home p {
   font-size: 4rem;
   font-weight: 700;
   color: white;
   margin: 8px 0 30px;
 }
-.home div button{
+button {
   margin: 10px;
-  padding: 13px;
+  padding: 15px;
   padding-inline: 25px;
   border-radius: 25px;
   color: white;
   font-weight: bolder;
+  transition: 0.65s;
 }
-
-.shop{
-  background-color: #F28123;
+button:hover {
+  transition: 0.65s;
+}
+.shop {
+  background-color: #f28123;
   border: none;
 }
-.shop:hover{
-  background-color: #0a0a0a98;
+.shop:hover {
+  background-color: #0a0a0aa4;
   border: none;
-  color: #f17511;
-  transition: 0.5s;
+  color: #f78930;
 }
-.contact_us{
-  border: solid 2px #F28123;
+.contact_us {
+  border: solid 2px #f28123;
   background: transparent;
 }
-.contact_us:hover{
-  background-color: #F28123;
-  transition: 0.5s;
+.contact_us:hover {
+  background-color: #f28123;
+}
 
+/* =============Title of cards============= */
+.our_prod {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 70%;
+  margin: 0px auto;
+  text-align: center;
+}
+.our_prod div {
+  padding-top: 4rem;
+}
+.title_orange {
+  color: #f28123;
+}
+.title_size {
+  font-size: 40px;
+  font-weight: 900;
+}
+.our_prod div::after {
+  position: absolute;
+  content: "";
+  width: 45px;
+  height: 3px;
+  background-color: #f28123;
+  top: 61%;
+}
+
+/* =============cards============= */
+.card {
+  margin: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 60px;
+  justify-content: center;
+  min-height: 100vh;
+}
+.card > div {
+  width: calc(100% / 3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 20rem;
+  height: 33rem;
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.199);
+  transition: transform 0.7s ease;
+}
+.card div:hover {
+  border: none;
+  box-shadow: none;
+  transform: scale(1.1);
+  transition: transform 0.7s ease;
+  /* animation: cards 0.7s  1 alternate; */
+}
+/* @keyframes cards {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  } */
+/* } */
+.card img {
+  width: 70%;
+}
+.card p {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  margin-top: 30px;
+}
+.light_small_font {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.453);
+}
+.card button i {
+  margin-right: 10px;
+}
+.card button {
+  font-weight: 400;
+  margin-bottom: 28px;
+}
+.card button:hover {
+  background-color: #0a0a0ae7;
+  border: none;
+  color: #f78930;
+}
+.card .price p {
+  font-size: 30px;
+  margin: 0px;
 }

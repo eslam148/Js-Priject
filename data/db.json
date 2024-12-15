@@ -1,63 +1,214 @@
 {
-    "location": {
-      "city": "San Francisco",
-      "region": "CA",
-      "country": "United States",
-      "latitude": 37.7749,
-      "longitude": -122.4194
+  "products": [
+    {
+      "id": 1,
+      "name": "Tomatoes",
+      "category": "Vegetables",
+      "price": 1.99,
+      "currency": "USD",
+      "stock": 100,
+      "description": "Fresh red tomatoes, perfect for salads and cooking.",
+      "image_urls": [
+        "https://example.com/images/tomatoes1.jpg",
+        "https://example.com/images/tomatoes2.jpg",
+        "https://example.com/images/tomatoes3.jpg"
+      ]
     },
-    "current": {
-      "temperature": 15,
-      "humidity": 82,
-      "pressure": 1013,
-      "wind_speed": 5.4,
-      "wind_direction": "NW",
-      "condition": {
-        "text": "Partly Cloudy",
-        "icon": "https://example.com/icons/partly_cloudy.png",
-        "code": 1003
-      },
-      "feels_like": 13
+    {
+      "id": 2,
+      "name": "Cucumbers",
+      "category": "Vegetables",
+      "price": 0.99,
+      "currency": "USD",
+      "stock": 150,
+      "description": "Crisp and refreshing cucumbers.",
+      "image_urls": [
+        "https://example.com/images/cucumbers1.jpg",
+        "https://example.com/images/cucumbers2.jpg",
+        "https://example.com/images/cucumbers3.jpg"
+      ]
     },
-    "forecast": [
-      {
-        "date": "2024-12-12",
-        "high": 18,
-        "low": 12,
-        "condition": {
-          "text": "Sunny",
-          "icon": "https://example.com/icons/sunny.png",
-          "code": 1000
-        }
-      },
-      {
-        "date": "2024-12-13",
-        "high": 17,
-        "low": 11,
-        "condition": {
-          "text": "Cloudy",
-          "icon": "https://example.com/icons/cloudy.png",
-          "code": 1006
-        }
-      },
-      {
-        "date": "2024-12-14",
-        "high": 16,
-        "low": 10,
-        "condition": {
-          "text": "Rain",
-          "icon": "https://example.com/icons/rain.png",
-          "code": 1183
-        }
-      }
-    ],
-    "alerts": [
-      {
-        "title": "High Wind Warning",
-        "description": "Strong winds are expected in the area from 10 AM to 8 PM.",
-        "start": "2024-12-12T10:00:00-08:00",
-        "end": "2024-12-12T20:00:00-08:00"
-      }
-    ]
+    {
+      "id": 3,
+      "name": "Carrots",
+      "category": "Vegetables",
+      "price": 1.49,
+      "currency": "USD",
+      "stock": 120,
+      "description": "Sweet and crunchy carrots, ideal for snacks or cooking.",
+      "image_urls": [
+        "https://example.com/images/carrots1.jpg",
+        "https://example.com/images/carrots2.jpg",
+        "https://example.com/images/carrots3.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Bell Peppers",
+      "category": "Vegetables",
+      "price": 2.49,
+      "currency": "USD",
+      "stock": 80,
+      "description": "Colorful bell peppers, great for salads and stir-fries.",
+      "image_urls": [
+        "https://example.com/images/bell_peppers1.jpg",
+        "https://example.com/images/bell_peppers2.jpg",
+        "https://example.com/images/bell_peppers3.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Lettuce",
+      "category": "Vegetables",
+      "price": 1.29,
+      "currency": "USD",
+      "stock": 200,
+      "description": "Fresh green lettuce, perfect for salads and sandwiches.",
+      "image_urls": [
+        "https://example.com/images/lettuce1.jpg",
+        "https://example.com/images/lettuce2.jpg",
+        "https://example.com/images/lettuce3.jpg"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Spinach",
+      "category": "Vegetables",
+      "price": 2.99,
+      "currency": "USD",
+      "stock": 90,
+      "description": "Organic spinach leaves, great for smoothies and cooking.",
+      "image_urls": [
+        "https://example.com/images/spinach1.jpg",
+        "https://example.com/images/spinach2.jpg",
+        "https://example.com/images/spinach3.jpg"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Potatoes",
+      "category": "Vegetables",
+      "price": 0.89,
+      "currency": "USD",
+      "stock": 300,
+      "description": "Versatile potatoes, perfect for frying, baking, or mashing.",
+      "image_urls": [
+        "https://example.com/images/potatoes1.jpg",
+        "https://example.com/images/potatoes2.jpg",
+        "https://example.com/images/potatoes3.jpg"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Onions",
+      "category": "Vegetables",
+      "price": 1.19,
+      "currency": "USD",
+      "stock": 250,
+      "description": "Flavorful onions, essential for cooking.",
+      "image_urls": [
+        "https://example.com/images/onions1.jpg",
+        "https://example.com/images/onions2.jpg",
+        "https://example.com/images/onions3.jpg"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Garlic",
+      "category": "Vegetables",
+      "price": 3.49,
+      "currency": "USD",
+      "stock": 75,
+      "description": "Aromatic garlic cloves, perfect for seasoning dishes.",
+      "image_urls": [
+        "https://example.com/images/garlic1.jpg",
+        "https://example.com/images/garlic2.jpg",
+        "https://example.com/images/garlic3.jpg"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Zucchini",
+      "category": "Vegetables",
+      "price": 1.89,
+      "currency": "USD",
+      "stock": 110,
+      "description": "Fresh zucchini, great for grilling or stir-fries.",
+      "image_urls": [
+        "https://example.com/images/zucchini1.jpg",
+        "https://example.com/images/zucchini2.jpg",
+        "https://example.com/images/zucchini3.jpg"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Eggplants",
+      "category": "Vegetables",
+      "price": 2.29,
+      "currency": "USD",
+      "stock": 95,
+      "description": "Plump eggplants, ideal for grilling and baking.",
+      "image_urls": [
+        "https://example.com/images/eggplants1.jpg",
+        "https://example.com/images/eggplants2.jpg",
+        "https://example.com/images/eggplants3.jpg"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Broccoli",
+      "category": "Vegetables",
+      "price": 1.99,
+      "currency": "USD",
+      "stock": 130,
+      "description": "Fresh broccoli florets, perfect for steaming or stir-fries.",
+      "image_urls": [
+        "https://example.com/images/broccoli1.jpg",
+        "https://example.com/images/broccoli2.jpg",
+        "https://example.com/images/broccoli3.jpg"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Cauliflower",
+      "category": "Vegetables",
+      "price": 2.49,
+      "currency": "USD",
+      "stock": 110,
+      "description": "White cauliflower heads, great for roasting and mashing.",
+      "image_urls": [
+        "https://example.com/images/cauliflower1.jpg",
+        "https://example.com/images/cauliflower2.jpg",
+        "https://example.com/images/cauliflower3.jpg"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Peas",
+      "category": "Vegetables",
+      "price": 1.69,
+      "currency": "USD",
+      "stock": 140,
+      "description": "Sweet green peas, excellent for soups and sides.",
+      "image_urls": [
+        "https://example.com/images/peas1.jpg",
+        "https://example.com/images/peas2.jpg",
+        "https://example.com/images/peas3.jpg"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Corn",
+      "category": "Vegetables",
+      "price": 2.29,
+      "currency": "USD",
+      "stock": 100,
+      "description": "Sweet corn, perfect for grilling or boiling.",
+      "image_urls": [
+        "https://example.com/images/corn1.jpg",
+        "https://example.com/images/corn2.jpg",
+        "https://example.com/images/corn3.jpg"
+      ]
+    }
+  ]
   }
-  
