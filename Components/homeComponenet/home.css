@@ -10,6 +10,7 @@ section {
       rgba(255, 132, 0, 0.107)
     ),
     url("../assets/img/hero-bg.jpg");
+  background-attachment: fixed;
   /* Second way for making an image */
   /* background-image: url("../assets/img/hero-bg.jpg");
   filter: brightness(.5); */

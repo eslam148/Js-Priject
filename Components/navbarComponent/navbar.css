@@ -9,7 +9,7 @@ body{
   max-width: 1100px;
   margin: auto;
 }
-nav  {
+nav {
   z-index: 2;
   background: transparent;
   top: 0;
