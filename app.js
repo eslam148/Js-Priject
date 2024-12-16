@@ -91,7 +91,4 @@ window.addEventListener("load", loadNavbar);
 window.addEventListener("load", loadFooter);
 
 
-//david work
-// window.addEventListener("scroll",()=>{
-//     navscroll(this);
-// })
+ 
