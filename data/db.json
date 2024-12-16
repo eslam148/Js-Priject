@@ -8,10 +8,8 @@
       "price": 1.2,
       "stock": 150,
       "images": [
-        "https://example.com/images/apple1.jpg",
-        "https://example.com/images/apple2.jpg",
-        "https://example.com/images/apple3.jpg"
-      ]
+        "lemon.jpg"
+        ]
     },
     {
       "id": 2,

@@ -1,23 +1,21 @@
 console.log("about");
 
- function get_url(url) {
+function get_url(url) {
   fetch(url)
-  .then((res)=>{
-    return res.json();
+    .then((res) => {
+      return res.json();
     })
-    .then((data)=>{
+    .then((data) => {
       console.log(data);
     })
-    .catch((error)=>{
+    .catch((error) => {
       console.log("Data from json file is corrupted!!");
     });
+}
 
-  }
-  
-  get_url("http://localhost:3000/products");
+get_url("http://localhost:3000/products");
 
-
-  // ========== error solved ==============
+// ========== error solved ==============
 
 // function get_url(url) {
 //   fetch(url)
@@ -46,4 +44,3 @@ console.log("about");
 //     console.log("Data from JSON file is corrupted!!", error);
 //   }
 // }
-

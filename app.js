@@ -70,7 +70,6 @@ async function loadNavbar() {
     // const script = document.createElement("script");
     // script.src = "Components/navbarComponent/navbar.js";
     // scriptcontetn.append(script);
-     
 }
 async function loadFooter() {
     const footerHTML = await loadComponent("Components/footerComponent/footer.html");
