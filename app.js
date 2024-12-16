@@ -2,7 +2,7 @@ import { routes } from "./router.js";
  
  
 const app = document.getElementById("app");
-const scriptcontetn = document.createElement("scriptConetent");
+const scriptcontetn = document.getElementById("scriptConetent");
 let currentStylesheet = null;
 let currentScript = null;
 
@@ -25,17 +25,20 @@ function loadStylesheet(cssPath) {
     link.href = cssPath;
     document.head.appendChild(link);
     currentStylesheet = link;
-}
+ }
 
 function loadScript(scriptPath) {
-    if (currentScript) {
+     if (currentScript) {
         currentScript.remove();
     }
     const script = document.createElement("script");
-    script.remove()
+    //script.remove()
     script.src = scriptPath;
+    
+    
     scriptcontetn.append(script);
-     currentScript = script;
+     
+    currentScript = script;
 }
 async function handleRoute() {
      const hash = window.location.hash.substring(1) || "home";
@@ -48,11 +51,14 @@ async function handleRoute() {
         if (route.css) {
             loadStylesheet(route.css);
         }
-         if (route.script) {
+        
+        if (route.script) {
             loadScript(route.script);
         }
     }
 }
+window.addEventListener("load", loadNavbar);
+window.addEventListener("load", loadFooter);
 
 window.addEventListener("hashchange", handleRoute);
 window.addEventListener("load", handleRoute);
@@ -67,16 +73,15 @@ async function loadNavbar() {
     navbarCSS.href = "Components/navbarComponent/navbar.css";
     document.head.appendChild(navbarCSS);
 
-    // const script = document.createElement("script");
-    // script.src = "Components/navbarComponent/navbar.js";
-    // scriptcontetn.append(script);
+    const script = document.createElement("script");
+    script.src = "Components/navbarComponent/navbar.js";
+    scriptcontetn.append(script);
 }
 async function loadFooter() {
     const footerHTML = await loadComponent("Components/footerComponent/footer.html");
     app.insertAdjacentHTML("afterend", footerHTML);
     const footerCSS = document.createElement("link");
-    // loadStylesheet("Components/footerComponent/footer.css")
-    // loadScript("Components/footerComponent/footer.js")
+    
     footerCSS.rel = "stylesheet";
     footerCSS.href = "Components/footerComponent/footer.css";
     document.head.appendChild(footerCSS);
@@ -84,13 +89,8 @@ async function loadFooter() {
     const script = document.createElement("script");
     script.src = "Components/footerComponent/footer.js";
     scriptcontetn.append(script);
-    
+     
 }
-window.addEventListener("load", loadNavbar);
-window.addEventListener("load", loadFooter);
 
 
-//david work
-// window.addEventListener("scroll",()=>{
-//     navscroll(this);
-// })
+ 
