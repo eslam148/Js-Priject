@@ -2,213 +2,105 @@
   "products": [
     {
       "id": 1,
-      "name": "Tomatoes",
-      "category": "Vegetables",
-      "price": 1.99,
-      "currency": "USD",
-      "stock": 100,
-      "description": "Fresh red tomatoes, perfect for salads and cooking.",
-      "image_urls": [
-        "https://example.com/images/tomatoes1.jpg",
-        "https://example.com/images/tomatoes2.jpg",
-        "https://example.com/images/tomatoes3.jpg"
-      ]
+      "name": "Apple",
+      "type": "fruit",
+      "description": "Crisp, juicy, and packed with natural sweetness. Perfect for snacking or baking!",
+      "price": 1.2,
+      "stock": 150,
+      "images": [
+        "lemon.jpg"
+        ]
     },
     {
       "id": 2,
-      "name": "Cucumbers",
-      "category": "Vegetables",
-      "price": 0.99,
-      "currency": "USD",
-      "stock": 150,
-      "description": "Crisp and refreshing cucumbers.",
-      "image_urls": [
-        "https://example.com/images/cucumbers1.jpg",
-        "https://example.com/images/cucumbers2.jpg",
-        "https://example.com/images/cucumbers3.jpg"
+      "name": "Banana",
+      "type": "fruit",
+      "description": "Nature's energy bar, rich in potassium and perfect for on-the-go nutrition.",
+      "price": 0.5,
+      "stock": 200,
+      "images": [
+        "https://example.com/images/banana1.jpg",
+        "https://example.com/images/banana2.jpg",
+        "https://example.com/images/banana3.jpg"
       ]
     },
     {
       "id": 3,
-      "name": "Carrots",
-      "category": "Vegetables",
-      "price": 1.49,
-      "currency": "USD",
-      "stock": 120,
-      "description": "Sweet and crunchy carrots, ideal for snacks or cooking.",
-      "image_urls": [
-        "https://example.com/images/carrots1.jpg",
-        "https://example.com/images/carrots2.jpg",
-        "https://example.com/images/carrots3.jpg"
+      "name": "Carrot",
+      "type": "vegetable",
+      "description": "Crunchy, colorful, and full of vitamins. A versatile choice for every meal.",
+      "price": 0.8,
+      "stock": 180,
+      "images": [
+        "https://example.com/images/carrot1.jpg",
+        "https://example.com/images/carrot2.jpg",
+        "https://example.com/images/carrot3.jpg"
       ]
     },
     {
       "id": 4,
-      "name": "Bell Peppers",
-      "category": "Vegetables",
-      "price": 2.49,
-      "currency": "USD",
-      "stock": 80,
-      "description": "Colorful bell peppers, great for salads and stir-fries.",
-      "image_urls": [
-        "https://example.com/images/bell_peppers1.jpg",
-        "https://example.com/images/bell_peppers2.jpg",
-        "https://example.com/images/bell_peppers3.jpg"
+      "name": "Tomato",
+      "type": "vegetable",
+      "description": "Juicy and vibrant, perfect for salads, sauces, or just as they are!",
+      "price": 1.0,
+      "stock": 130,
+      "images": [
+        "https://example.com/images/tomato1.jpg",
+        "https://example.com/images/tomato2.jpg",
+        "https://example.com/images/tomato3.jpg"
       ]
     },
     {
       "id": 5,
-      "name": "Lettuce",
-      "category": "Vegetables",
-      "price": 1.29,
-      "currency": "USD",
-      "stock": 200,
-      "description": "Fresh green lettuce, perfect for salads and sandwiches.",
-      "image_urls": [
-        "https://example.com/images/lettuce1.jpg",
-        "https://example.com/images/lettuce2.jpg",
-        "https://example.com/images/lettuce3.jpg"
+      "name": "Strawberry",
+      "type": "fruit",
+      "description": "Sweet, red, and bursting with flavor. A berry that everyone loves.",
+      "price": 2.5,
+      "stock": 90,
+      "images": [
+        "https://example.com/images/strawberry1.jpg",
+        "https://example.com/images/strawberry2.jpg",
+        "https://example.com/images/strawberry3.jpg"
       ]
     },
     {
       "id": 6,
-      "name": "Spinach",
-      "category": "Vegetables",
-      "price": 2.99,
-      "currency": "USD",
-      "stock": 90,
-      "description": "Organic spinach leaves, great for smoothies and cooking.",
-      "image_urls": [
-        "https://example.com/images/spinach1.jpg",
-        "https://example.com/images/spinach2.jpg",
-        "https://example.com/images/spinach3.jpg"
+      "name": "Lemon",
+      "type": "fruit",
+      "description": "Zesty and tangy, lemons add a burst of flavor to any dish or drink.",
+      "price": 1.5,
+      "stock": 110,
+      "images": [
+        "https://example.com/images/lemon1.jpg",
+        "https://example.com/images/lemon2.jpg",
+        "https://example.com/images/lemon3.jpg"
       ]
     },
     {
       "id": 7,
-      "name": "Potatoes",
-      "category": "Vegetables",
-      "price": 0.89,
-      "currency": "USD",
-      "stock": 300,
-      "description": "Versatile potatoes, perfect for frying, baking, or mashing.",
-      "image_urls": [
-        "https://example.com/images/potatoes1.jpg",
-        "https://example.com/images/potatoes2.jpg",
-        "https://example.com/images/potatoes3.jpg"
+      "name": "Eggplant",
+      "type": "vegetable",
+      "description": "Rich, meaty, and perfect for grilling or baking. A staple in many cuisines!",
+      "price": 1.3,
+      "stock": 95,
+      "images": [
+        "https://example.com/images/eggplant1.jpg",
+        "https://example.com/images/eggplant2.jpg",
+        "https://example.com/images/eggplant3.jpg"
       ]
     },
     {
       "id": 8,
-      "name": "Onions",
-      "category": "Vegetables",
-      "price": 1.19,
-      "currency": "USD",
-      "stock": 250,
-      "description": "Flavorful onions, essential for cooking.",
-      "image_urls": [
-        "https://example.com/images/onions1.jpg",
-        "https://example.com/images/onions2.jpg",
-        "https://example.com/images/onions3.jpg"
-      ]
-    },
-    {
-      "id": 9,
-      "name": "Garlic",
-      "category": "Vegetables",
-      "price": 3.49,
-      "currency": "USD",
-      "stock": 75,
-      "description": "Aromatic garlic cloves, perfect for seasoning dishes.",
-      "image_urls": [
-        "https://example.com/images/garlic1.jpg",
-        "https://example.com/images/garlic2.jpg",
-        "https://example.com/images/garlic3.jpg"
-      ]
-    },
-    {
-      "id": 10,
-      "name": "Zucchini",
-      "category": "Vegetables",
-      "price": 1.89,
-      "currency": "USD",
-      "stock": 110,
-      "description": "Fresh zucchini, great for grilling or stir-fries.",
-      "image_urls": [
-        "https://example.com/images/zucchini1.jpg",
-        "https://example.com/images/zucchini2.jpg",
-        "https://example.com/images/zucchini3.jpg"
-      ]
-    },
-    {
-      "id": 11,
-      "name": "Eggplants",
-      "category": "Vegetables",
-      "price": 2.29,
-      "currency": "USD",
-      "stock": 95,
-      "description": "Plump eggplants, ideal for grilling and baking.",
-      "image_urls": [
-        "https://example.com/images/eggplants1.jpg",
-        "https://example.com/images/eggplants2.jpg",
-        "https://example.com/images/eggplants3.jpg"
-      ]
-    },
-    {
-      "id": 12,
-      "name": "Broccoli",
-      "category": "Vegetables",
-      "price": 1.99,
-      "currency": "USD",
-      "stock": 130,
-      "description": "Fresh broccoli florets, perfect for steaming or stir-fries.",
-      "image_urls": [
-        "https://example.com/images/broccoli1.jpg",
-        "https://example.com/images/broccoli2.jpg",
-        "https://example.com/images/broccoli3.jpg"
-      ]
-    },
-    {
-      "id": 13,
-      "name": "Cauliflower",
-      "category": "Vegetables",
-      "price": 2.49,
-      "currency": "USD",
-      "stock": 110,
-      "description": "White cauliflower heads, great for roasting and mashing.",
-      "image_urls": [
-        "https://example.com/images/cauliflower1.jpg",
-        "https://example.com/images/cauliflower2.jpg",
-        "https://example.com/images/cauliflower3.jpg"
-      ]
-    },
-    {
-      "id": 14,
-      "name": "Peas",
-      "category": "Vegetables",
-      "price": 1.69,
-      "currency": "USD",
-      "stock": 140,
-      "description": "Sweet green peas, excellent for soups and sides.",
-      "image_urls": [
-        "https://example.com/images/peas1.jpg",
-        "https://example.com/images/peas2.jpg",
-        "https://example.com/images/peas3.jpg"
-      ]
-    },
-    {
-      "id": 15,
-      "name": "Corn",
-      "category": "Vegetables",
-      "price": 2.29,
-      "currency": "USD",
-      "stock": 100,
-      "description": "Sweet corn, perfect for grilling or boiling.",
-      "image_urls": [
-        "https://example.com/images/corn1.jpg",
-        "https://example.com/images/corn2.jpg",
-        "https://example.com/images/corn3.jpg"
+      "name": "Grape",
+      "type": "fruit",
+      "description": "Sweet and juicy, grapes are a refreshing treat any time of day.",
+      "price": 2.0,
+      "stock": 120,
+      "images": [
+        "https://example.com/images/grape1.jpg",
+        "https://example.com/images/grape2.jpg",
+        "https://example.com/images/grape3.jpg"
       ]
     }
   ]
-  }
+}
