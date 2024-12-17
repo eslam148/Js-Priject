@@ -103,4 +103,21 @@
       ]
     }
   ]
+,
+  "user": [
+    {
+      "id": 1,
+      "name":"Eslam",
+      "email": "isalm12476794@gmail.com",
+      "password": "eslam@123456789"
+      
+    },
+    {
+      "id": 2,
+      "name":"david",
+      "email": "david12@gmail.com",
+      "password": "david@1234"
+      
+    }
+  ]
 }

@@ -1,6 +1,19 @@
-//david work
-
-   function navscroll(wind){
+ loginUser = JSON.parse(localStorage.getItem("user")) ;
+ if(loginUser){
+    let user = document.getElementById("login");
+    user.href ="";
+    user.innerHTML = loginUser.name
+    let userdata = document.getElementById("userdata");
+    let signout =  document.createElement("a")
+    signout.href="#"
+    signout.innerHTML = "SignOut"
+    signout.addEventListener("click",()=>{
+      localStorage.clear();
+    })
+    userdata.append(signout)
+}
+ 
+function navscroll(wind){
 var bg_nav = document.getElementById("nav");
 
       if (wind.scrollY > 0) {
