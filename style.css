@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 .container{
     margin: auto;
     max-width: 1100px;
@@ -28,4 +31,18 @@ body{
 a{
     text-decoration: none;
     color: inherit;
+}
+.up_arrow{
+    font-size: 2rem;
+    color:  #f28123;
+    background-color: transparent;
+    border: black;
+    position: fixed;
+    bottom: 50px;    
+    right: 50px;    
+    transition: .6s;
+}
+.up_arrow i:hover{
+    color: rgb(78, 171, 68);
+    transition: .6s;
 }
