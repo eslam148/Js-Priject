@@ -4,12 +4,7 @@ console.log(product);
 let templet = `
 <div class="prodact-details">
         <div class="gallary">
-            <div class="gallary-images">
-                <img class="cart-image" src="/Components/assets/img/abt.jpg"alt="">
-                <img class="cart-image" src="/Components/assets/img/abt.jpg"alt="">
-                <img class="cart-image" src="/Components/assets/img/abt.jpg"alt="">
-                <img class="cart-image" src="/Components/assets/img/abt.jpg"alt="">
-            </div>
+           
             <div class="main-image">
                 <img   src="/Components/assets/img/products/${product.images[0]}"alt="">
             </div>

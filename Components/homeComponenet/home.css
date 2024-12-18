@@ -2,23 +2,60 @@ section {
   min-height: 50vh;
   width: 100%;
 }
+.wraper {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  transition: all 1s ease;
+  /* overflow: hidden; */
+  /* animation: tran 2s linear; */
+}
 .home {
-  z-index: -1;
-  top: 0;
-  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 1 0 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height: 100vh;
+  width: 100vw; */
+  /* Second way for making an image */
+  /* background-image: url("../assets/img/hero-bg.jpg");
+  filter: brightness(.5); */
+}
+
+/* @keyframes tran {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  } 
+} */
+
+.img_1 {
   background-image: linear-gradient(
       rgba(0, 0, 0, 0.801),
       rgba(255, 132, 0, 0.107)
     ),
     url("../assets/img/hero-bg.jpg");
-  background-attachment: fixed;
-  /* Second way for making an image */
-  /* background-image: url("../assets/img/hero-bg.jpg");
-  filter: brightness(.5); */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+}
+.img_2 {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.801),
+      rgba(255, 132, 0, 0.107)
+    ),
+    url("../assets/img/second.jpg");
+}
+.img_3 {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.801),
+      rgba(255, 132, 0, 0.107)
+    ),
+    url("../assets/img/third.jpg");
 }
 /* 
 .home::after{
@@ -151,6 +188,8 @@ button:hover {
 /* } */
 .card img {
   width: 70%;
+  height: 40%;
+  padding-top: 10%;
 }
 .card p {
   font-size: 20px;
@@ -201,4 +240,7 @@ button:hover {
 .filter-btn{
   font-weight: 400;
  
+}
+.price {
+  text-align: center;
 }
