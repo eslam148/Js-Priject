@@ -8,7 +8,10 @@
     signout.href="#"
     signout.innerHTML = "SignOut"
     signout.addEventListener("click",()=>{
+      user.href ="#logIn";
+      user.innerHTML = 'Sing In'
       localStorage.clear();
+      signout.remove();
     })
     userdata.append(signout)
 }
@@ -24,3 +27,11 @@ var bg_nav = document.getElementById("nav");
 }
 
 window.addEventListener("scroll",()=>{navscroll(this)})
+
+setInterval(()=>{
+  let cart = JSON.parse(localStorage.getItem("cart"))
+  if(cart){
+    let cart_count = document.getElementById("cart_count")
+    cart_count.innerHTML = cart.length
+  }
+},100)

@@ -71,8 +71,8 @@ function singleProduct(i){
 }
 function runderCard(data){
   for (let i  = 0; i < data.length; i++) {
-    let card = `<div onclick="singleProduct(${i})"> 
-        <img src="/Components/assets/img/products/${data[i].images}"/>
+    let card = `<div > 
+        <img onclick="singleProduct(${i})" src="/Components/assets/img/products/${data[i].images}"/>
         <p>${data[i].name}</p>
         <div class="price">
           <span class="light_small_font">Per Kg</span>
