@@ -50,3 +50,24 @@ td{
 .cart-image{
  width: 50px;
 }
+
+#checkout{
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    background-color: #F28123;
+    color: #fff;
+    padding: 10px 20px;
+    width: 80%;
+    height: 4.5vh;
+    border-radius: 50px;
+    border:none;
+    font-size: 1rem;
+
+
+}
+#checkout:hover {
+    background-color: #0a0a0a98;
+    border: none;
+    color: #f17511;
+    transition: 0.6s;
+}

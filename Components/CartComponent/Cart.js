@@ -39,3 +39,9 @@ function removeItem(el,i){
     document.getElementById("total-price").innerText = totalPrice.toFixed(2);
      
 }
+
+function checkout(e){
+    e.preventDefault()
+    localStorage.removeItem("cart");
+    window.location.href = "#order";
+}
