@@ -41,9 +41,11 @@ async function checkUser(email,password){
           
          localStorage.setItem("user",JSON.stringify(result))
           window.location.href = "index.html";  
+        }else{
+           document.getElementById("password-alert").innerHTML = "Email or Password not correct";
+
         }
 
     }catch(e){
-
     }
 }
