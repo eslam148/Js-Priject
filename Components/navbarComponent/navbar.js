@@ -7,11 +7,14 @@
     let signout =  document.createElement("a")
     signout.href="#"
     signout.innerHTML = "SignOut"
+    document.getElementById("register").style.display="none"
     signout.addEventListener("click",()=>{
       user.href ="#logIn";
       user.innerHTML = 'Sing In'
       localStorage.clear();
       signout.remove();
+      document.getElementById("register").style.display="inline-block"
+
     })
     userdata.append(signout)
 }

@@ -1,4 +1,4 @@
-let allproduct;
+var allproduct;
 function get_url(url) {
   fetch(url)
     .then((res) => {
@@ -19,7 +19,7 @@ function get_url(url) {
     }
     
     
-let card_div = document.querySelector("section.card");
+var card_div = document.querySelector("section.card");
 console.log(card_div);
 
 //get_url("http://localhost:3000/products");

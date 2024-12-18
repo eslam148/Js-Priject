@@ -38,7 +38,7 @@
       "name": "Tomato",
       "type": "vegetable",
       "description": "Juicy and vibrant, perfect for salads, sauces, or just as they are!",
-      "price": 1.0,
+      "price": 1,
       "stock": 130,
       "images": [
         "tomato.png"
@@ -75,35 +75,62 @@
       "stock": 150,
       "images": [
         "apple.png"
-        ]
+      ]
     },
     {
       "id": 8,
       "name": "Grape",
       "type": "fruit",
       "description": "Sweet and juicy, grapes are a refreshing treat any time of day.",
-      "price": 2.0,
+      "price": 2,
       "stock": 120,
       "images": [
         "grape.jpg"
       ]
     }
-  ]
-,
+  ],
   "user": [
     {
       "id": 1,
-      "name":"Eslam",
+      "name": "Eslam",
       "email": "isalm12476794@gmail.com",
       "password": "eslam@123456789"
-      
     },
     {
       "id": 2,
-      "name":"david",
+      "name": "david",
       "email": "david12@gmail.com",
       "password": "david@1234"
-      
+    },
+    {
+      "id": 646265,
+      "name": "aaa",
+      "email": "Islam.18333388@compit.aun.edu.eg",
+      "password": "12345678"
+    },
+    {
+      "id": 442990,
+      "name": "asd",
+      "email": "Islam.18333388@compit.aun.edu.eg",
+      "password": "1234567"
+    },
+    {
+      "id": 73888,
+      "name": "Eslam",
+      "email": "Islam.18333388@compit.aun.edu.eg",
+      "password": "12345678"
+    },
+    {
+      "id": 781949,
+      "name": "aaa",
+      "email": "Islam.18333388@compit.aun.edu.eg",
+      "password": "123"
+    },
+    {
+      "id": 519791,
+      "name": "Eslam",
+      "email": "Islam.18333388@compit.aun.edu.eg",
+      "password": "Eslam@1998"
     }
   ]
 }
