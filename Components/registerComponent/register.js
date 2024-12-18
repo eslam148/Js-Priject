@@ -21,13 +21,16 @@ let user ={
 
 button.addEventListener("click", (e) => {
     e.preventDefault();
-    if (email.value == "" || Password.value == "" ||nameinput.value == "" ) {
+    if (email.value == "" || Password.value == "" || nameinput.value == "" ) {
         listError.innerHTML = "Please fill all the fields";
     }
     else if (!regex.test(email.value)) {
          emialError.innerHTML = "Please enter a valid email";
 
     }
+    else if ((Password.value).length <  8) {
+        listError.innerHTML = "Password must be at least 8 characters";
+    } 
     else if(Confirm_Password.value !=  Password.value){
         Confirmpasswordalert.innerHTML = "Passwords not match."
       

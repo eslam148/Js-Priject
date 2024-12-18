@@ -1,3 +1,20 @@
+
+var wraper = document.getElementsByClassName("wraper")[0];
+// console.log(bgimage);
+// var arr_images = [];
+// for (let i = 0; i < bgimage.length; i++) {
+//   arr_images.push(bgimage[i]);
+// }
+// console.log(arr_images);
+let count = 0;
+setInterval(() => {
+  wraper.style.transform = `translateX(-${100 * count}%)`;
+  count++;
+  if (count == 3) {
+    count = 0;
+  }
+}, 3000);
+
 var allproduct;
 function get_url(url) {
   fetch(url)
