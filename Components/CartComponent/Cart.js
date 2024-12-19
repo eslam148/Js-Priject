@@ -25,7 +25,7 @@ if(cart){
     document.getElementById("total-price").innerText = totalPrice.toFixed(2);
 }
 else{
-    document.getElementById("cart").innerHTML = "<h1>Cart is empty</h1>"
+    document.querySelector(".cart-containrt").innerHTML = "<h1>Cart is empty</h1>"
     document.querySelector(".cart-table").style.display = "none";
 }
 function changeCount(event, i){

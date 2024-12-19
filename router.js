@@ -6,6 +6,7 @@ export const routes = {
     card: { html: "Components/cardsComponenet/cards.html", css: "Components/cardsComponenet/cards.css" ,script:"Components/cardsComponenet/cards.js"},
     order: { html: "Components/orderComponent/order.html", css: "Components/orderComponent/order.css" ,script:"Components/orderComponent/order.js"},
     register: { html: "Components/registerComponent/register.html", css: "Components/registerComponent/register.css" ,script:"Components/registerComponent/register.js"},
-  
+    about: { html: "Components/registerComponent/register.html", css: "Components/registerComponent/register.css" ,script:"Components/registerComponent/register.js"},
+
   };
   

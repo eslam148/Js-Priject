@@ -68,21 +68,21 @@ a{
         rgba(0, 0, 0, 0.801),
         rgba(255, 132, 0, 0.107)
       ),
-      url("../assets/img/hero-bg.jpg");
+      url("/Components/assets/img/hero-bg-3.jpg");
   }
   .img_2 {
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.801),
         rgba(255, 132, 0, 0.107)
       ),
-      url("../assets/img/second.jpg");
+      url("/Components/assets/img/hero-bg-2.jpg");
   }
   .img_3 {
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.801),
         rgba(255, 132, 0, 0.107)
       ),
-      url("../assets/img/third.jpg");
+      url("/Components/assets/img/hero-bg.jpg");
   }
   .wraper {
     display: flex;
