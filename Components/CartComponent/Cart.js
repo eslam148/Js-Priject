@@ -24,6 +24,10 @@ if(cart){
     })
     document.getElementById("total-price").innerText = totalPrice.toFixed(2);
 }
+else{
+    document.querySelector(".cart-containrt").innerHTML = "<h1>Cart is empty</h1>"
+    document.querySelector(".cart-table").style.display = "none";
+}
 function changeCount(event, i){
    totalPrice = totalPrice - (cart[i].price *cart[i].count) + event.target.value * cart[i].price;
    cart[i].count = event.target.value;
@@ -42,6 +46,12 @@ function removeItem(el,i){
 
 function checkout(e){
     e.preventDefault()
-    localStorage.removeItem("cart");
-    window.location.href = "#order";
+    let user = JSON.parse(localStorage.getItem("user"))
+    if(!user){
+        window.location.href = "#logIn";
+    }else{
+        localStorage.removeItem("cart");
+        window.location.href = "#order";
+    }
+
 }

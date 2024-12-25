@@ -1,48 +1,42 @@
-<div class="cart-containrt  ">
-    <div class="cart-table" >
-        <table  >
-            <thead class="table-head">
-                <tr class="tr-head">
-                    <th></th>
-                    <th>Product Image</th>
-                    <th>Name</th>
-                    <th>Price</th>
-                    <th>Quantity</th>
-                    <th>Total</th>
-                </tr>
-            </thead>
-            <tbody id="tbody">
-               
-                
-            </tbody>
-        </table>
-    </div>
-    <div class="bill-tabel">
-        <table>
-            <thead>
-                <tr class="tr-head">
-                    <th>Total</th>
-                    <th>Price</th>
-                     
-                </tr>
-            </thead>
-            <tbody>
-                
-                
-                <tr>
-                    
-                    <th>Total:	</th>
-                    <td id="total-price">
-                        $545
-                    </td>
-                    
-                </tr>
-                <tr>
-                   <td> <a  onclick="checkout(event)"   id="checkout">Check Out</a></td>
-                </tr>
-            </tbody>
-        </table>
-
-
-    </div>
+<div class="wraper">
+  <div class="home img_2">
+    <h4 class="active_home">FRESH & ORGANIC</h4>
+    <p>Cart</p>
+  </div>
+</div>
+<div class="cart-containrt">
+  <div class="cart-table">
+    <table>
+      <thead class="table-head">
+        <tr class="tr-head">
+          <th></th>
+          <th>Product Image</th>
+          <th>Name</th>
+          <th>Price</th>
+          <th>Quantity</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </div>
+  <div class="bill-tabel">
+    <table>
+      <thead>
+        <tr class="tr-head">
+          <th>Total</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Total:</th>
+          <td id="total-price">$545</td>
+        </tr>
+        <tr>
+          <td><a onclick="checkout(event)" id="checkout">Check Out</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 </div>

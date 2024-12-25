@@ -32,7 +32,7 @@
       "name": "Tomato",
       "type": "vegetable",
       "description": "Juicy and vibrant, perfect for salads, sauces, or just as they are!",
-      "price": 1.0,
+      "price": 1,
       "stock": 130,
       "images": ["tomato.png"]
     },
@@ -61,14 +61,16 @@
       "description": "Crisp, juicy, and packed with natural sweetness. Perfect for snacking or baking!",
       "price": 1.2,
       "stock": 150,
-      "images": ["apple.png"]
+      "images": [
+        "apple.png"
+        ]
     },
     {
       "id": 8,
       "name": "Grape",
       "type": "fruit",
       "description": "Sweet and juicy, grapes are a refreshing treat any time of day.",
-      "price": 2.0,
+      "price": 2,
       "stock": 120,
       "images": ["grape.jpg"]
     }
@@ -85,6 +87,7 @@
       "name": "david",
       "email": "david12@gmail.com",
       "password": "david@1234"
+      
     }
   ]
 }

@@ -71,3 +71,14 @@ td{
     color: #f17511;
     transition: 0.6s;
 }
+.img_2 {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.801),
+        rgba(255, 132, 0, 0.107)
+      ),
+      url("/Components/assets/img/4.jpg");
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
