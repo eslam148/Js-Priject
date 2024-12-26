@@ -57,8 +57,8 @@ async function handleRoute() {
         }
     }
 }
-window.addEventListener("load", loadNavbar);
-window.addEventListener("load", loadFooter);
+// window.addEventListener("load", loadNavbar);
+// window.addEventListener("load", loadFooter);
 
 window.addEventListener("hashchange", handleRoute);
 window.addEventListener("load", handleRoute);

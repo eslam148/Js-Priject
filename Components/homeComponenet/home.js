@@ -36,7 +36,7 @@ function get_url(url) {
     }
     
     
-var card_div = document.querySelector("section.card");
+var card_div = document.querySelector("#card");
 console.log(card_div);
 
 //get_url("http://localhost:3000/products");
@@ -88,15 +88,15 @@ function singleProduct(i){
 }
 function runderCard(data){
   for (let i  = 0; i < data.length; i++) {
-    let card = `<div > 
-        <img onclick="singleProduct(${i})" src="/Components/assets/img/products/${data[i].images}"/>
+    let card = `<div class="col-lg-3 col-md-5 col-12 card border-0 text-center mt-4 align-items-center"> 
+        <img onclick="singleProduct(${i})" src="/Components/assets/img/products/${data[i].images}" class="d-block w-75 h-50 m-auto"/>
         <p>${data[i].name}</p>
         <div class="price">
           <span class="light_small_font">Per Kg</span>
           <p>${data[i].price}$</p>
         </div>
-        <button onclick="addToCart(${i})" class="shop">
-          <i class="fa-solid fa-cart-shopping"></i>Add to Card
+        <button onclick="addToCart(${i})" class="shop w-50 justify-content-around">
+          <i class="fa-solid fa-cart-shopping "></i>Add to Card
         </button>
       </div>`;
       card_div.innerHTML += card;
